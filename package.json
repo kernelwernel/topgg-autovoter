@@ -1,0 +1,32 @@
+{
+  "name": "auto-vote-topgg",
+  "version": "1.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrinkvine/auto-vote-topgg.git"
+  },
+  "keywords": [
+    "discord",
+    "topgg",
+    "vote",
+    "auto",
+    "bot",
+    "autovote",
+    "auto-vote",
+    "auto-vote-topgg",
+    "top.gg",
+    "puppeteer"
+  ],
+  "author": "samsosa",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.1.2",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
