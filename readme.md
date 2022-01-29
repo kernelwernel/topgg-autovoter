@@ -4,6 +4,7 @@ auto-vote-topgg automates voting for bots on top.gg using google chrome!
 
 - uses your account thats already logged into top.gg
 - you must be logged into top.gg on google chrome for this to work properly
+  - or you may optionally pass in your `connect.sid` cookie
 
 ## Installation
 
