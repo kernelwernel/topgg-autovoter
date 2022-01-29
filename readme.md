@@ -14,7 +14,7 @@ npm i auto-vote-topgg
 
 ## Usage
 
-`vote(voteUrl, userDataDir)`
+`vote({ voteUrl, userDataDir, connectSidCookie })`
 
 - `voteUrl`
   - the top.gg url to vote for your bot
@@ -27,25 +27,25 @@ npm i auto-vote-topgg
       - Prioritized over userDataDir if this is passed in
 
 ```js
-const { vote } = require('auto-vote-topgg')
+const { vote } = require("auto-vote-topgg");
 
 async function voteForMyBot() {
   const { success, msg } = await vote({
-    voteUrl: 'https://top.gg/bot/12345678/vote',
-    connectSidCookie: 'connect.sid cookie', // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
+    voteUrl: "https://top.gg/bot/12345678/vote",
+    connectSidCookie: "connect.sid cookie", // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
     userDataDir:
-      'C:\\Users\\JohnSmith\\AppData\\Local\\Google\\Chrome\\User Data', // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
-  })
-  console.log(success, msg)
+      "C:\\Users\\JohnSmith\\AppData\\Local\\Google\\Chrome\\User Data", // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
+  });
+  console.log(success, msg);
 }
 
 // call it on startup
-voteForMyBot()
+voteForMyBot();
 
 // call it every 12 hours after startup
 setInterval(async () => {
-  await voteForMyBot()
-}, 43300000)
+  await voteForMyBot();
+}, 43300000);
 ```
 
 ## Contributing
