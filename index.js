@@ -10,7 +10,7 @@ function sleep(ms) {
 
 function check(param, name) {
   if (param == null)
-    throw new Error(`Error: Missing parameter ${name}`)
+    throw new Error(`Error: Missing parameter ${name}`);
 }
 
 /**
