@@ -20,15 +20,21 @@ npm i auto-vote-topgg
 - `userDataDir`
   - the path to the directory of your local user's chrome data
     - Will likely be `%userprofile%\AppData\Local\Google\Chrome\User Data` on windows
+- `connectSidCookie`
+  - The `connect.sid` cookie value from top.gg
+    - Use the cookie if you are voting from multiple accounts
+      - Prioritized over userDataDir if this is passed in
 
 ```js
 const { vote } = require('auto-vote-topgg')
 
 async function voteForMyBot() {
-  const { success, msg } = await vote(
-    'https://top.gg/bot/123456789/vote',
-    'C:\\Users\\JohnSmith\\AppData\\Local\\Google\\Chrome\\User Data',
-  )
+  const { success, msg } = await vote({
+    voteUrl: 'https://top.gg/bot/12345678/vote',
+    connectSidCookie: 'connect.sid cookie', // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
+    userDataDir:
+      'C:\\Users\\JohnSmith\\AppData\\Local\\Google\\Chrome\\User Data', // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
+  })
   console.log(success, msg)
 }
 
