@@ -1,14 +1,14 @@
 {
   "name": "autovoter-for-topgg",
   "version": "1.0.13",
-  "description": "<h1 align=\"center\">auto-vote-topgg</h1>",
+  "description": "autovoter-for-topgg automates voting for bots on top.gg using google chrome! ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shrinkvine/auto-vote-topgg.git"
+    "url": "git+https://github.com/Existential-nonce/autovoter-for-topgg.git"
   },
   "keywords": [
     "discord",
@@ -30,8 +30,8 @@
     "puppeteer-extra-plugin-stealth": "^2.9.0"
   },
   "bugs": {
-    "url": "https://github.com/Shrinkvine/auto-vote-topgg/issues"
+    "url": "https://github.com/Existential-nonce/autovoter-for-topgg/issues"
   },
-  "homepage": "https://github.com/Shrinkvine/auto-vote-topgg#readme",
+  "homepage": "https://github.com/Existential-nonce/autovoter-for-topgg#README",
   "devDependencies": {}
 }
