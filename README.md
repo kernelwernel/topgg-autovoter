@@ -1,13 +1,13 @@
-<h1 align="center">autovote-topgg</h1>
+<h1 align="center">autovoter-for-topgg</h1>
 
-<p align="center"> autovote-topgg automates voting for bots on top.gg using google chrome! </p>
+<p align="center"> autovoter-for-topgg automates voting for bots on top.gg using google chrome! </p>
 
 - uses your account thats already logged into top.gg
 - you must be logged into top.gg on google chrome for this to work properly
   - or you may optionally pass in your `connect.sid` cookie
 
 ## NOTE FROM THE MAINTAINER:
-> I am **NOT** the original creator of this package. All the credit goes to @Shrinkvine with his repository named `auto-vote-topgg` (I modified the name a little to make it a bit better without the first hyphen) but he deleted/privated it for some reason. This package is merely a fork of his repository before it was unavailable, so I'm reuploading it as I think this is such a useful package for automation purposes. I will keep maintaining this package if it ever gets any PRs or issues but if you're the original author of this repository and you want me to remove it for whatever reason, please contact me on discord at `nonce#0001`. If it doesn't work, my discord tag should be on my github profile.
+> I am **NOT** the original creator of this package. All the credit goes to @Shrinkvine with his repository named `auto-vote-topgg` (I modified the name a little because npm is a bitch about "similar package names" when the original package doesn't even exist anymore lol), but he deleted/privated it for some reason. This package is merely a fork of his repository before it was unavailable, so I'm reuploading it as I think this is such a useful package for automation purposes. I will keep maintaining this package if it ever gets any PRs or issues but if you're the original author of this repository and you want me to remove it for whatever reason, please contact me on discord at `nonce#0001`. If it doesn't work, my discord tag should be on my github profile.
 
 
 ## Installation
