@@ -19,7 +19,7 @@
 ## Installation
 
 ```bash
-npm i auto-vote-topgg
+npm i topgg-autovoter
 ```
 
 ## Usage
