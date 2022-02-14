@@ -1,6 +1,6 @@
-<h1 align="center">autovoter-for-topgg</h1>
+<h1 align="center">topgg-autovoter</h1>
 
-<p align="center"> autovoter-for-topgg automates voting for bots on top.gg using google chrome! </p>
+<p align="center">topgg-autovoter automates voting for bots on top.gg using google chrome! </p>
 
 - uses your account thats already logged into top.gg
 - you must be logged into top.gg on google chrome for this to work properly
