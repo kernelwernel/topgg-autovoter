@@ -1,7 +1,7 @@
 {
-  "name": "auto-vote-topgg",
+  "name": "autovote-topgg",
   "version": "1.0.13",
-  "description": "",
+  "description": "<h1 align=\"center\">auto-vote-topgg</h1>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,11 +22,16 @@
     "top.gg",
     "puppeteer"
   ],
-  "author": "samsosa",
+  "author": "nonce",
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^13.1.2",
     "puppeteer-extra": "^3.2.3",
     "puppeteer-extra-plugin-stealth": "^2.9.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Shrinkvine/auto-vote-topgg/issues"
+  },
+  "homepage": "https://github.com/Shrinkvine/auto-vote-topgg#readme",
+  "devDependencies": {}
 }
