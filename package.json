@@ -3,9 +3,6 @@
   "version": "1.0.4",
   "description": "topgg-autovoter automates voting for bots on top.gg using google chrome! ",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
