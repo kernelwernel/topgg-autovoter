@@ -1,6 +1,6 @@
 {
   "name": "topgg-autovoter",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "topgg-autovoter automates voting for bots on top.gg using google chrome! ",
   "main": "index.js",
   "publishConfig": {
