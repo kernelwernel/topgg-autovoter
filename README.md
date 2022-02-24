@@ -37,7 +37,7 @@ npm i topgg-autovoter
       - Prioritized over userDataDir if this is passed in
 
 ```js
-const { vote } = require("auto-vote-topgg");
+const { vote } = require("topgg-autovoter");
 
 async function voteForMyBot() {
   const { success, msg } = await vote({
