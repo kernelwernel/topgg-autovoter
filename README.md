@@ -1,4 +1,5 @@
 <h1 align="center">topgg-autovoter</h1>
+<h2 align="center"><b>WARNING:</b> this package has been patched. It no longer works now.</h2>
 
 <p align="center">topgg-autovoter automates voting for bots on top.gg using google chrome! </p>
 
@@ -9,9 +10,12 @@
 - - -
 
 ## NOTE FROM THE MAINTAINER:
-> I am **NOT** the original creator of this package. All the credit goes to @Shrinkvine with his repository named `auto-vote-topgg` (I modified the name a little because npm is a bitch about "similar package names" lol), but he deleted/privated it for some reason. This package is merely a fork of his repository before it was unavailable, so I'm reuploading it as I think this is such a useful package for automation purposes. 
+> I am **NOT** the original creator of this package. All the credit goes to @Shrinkvine with his repository named `auto-vote-topgg` (I modified the name a little because npm is a bitch about "similar package names"), but he deleted/privated it for some reason. This package is merely a fork of his repository before it was unavailable, so I'm reuploading it as I think this is such a useful package for automation purposes.
 > 
-> I will keep maintaining this package if it ever gets any PRs or issues but if you're the original author of this repository and you want me to remove it for whatever reason, please contact me on discord at `nonce#0001`. If it doesn't work, my discord tag should be on my github profile.
+> There has been a few modifications, improvements, and bug fixes that are additional to the original source code, but I will keep maintaining this package if it ever gets any PRs or issues but if you're the original author of this repository and you want me to remove it for whatever reason, please contact me on discord at `nonce#0001`. If it doesn't work, my discord tag should be on my github profile.
+>
+> also, credits to @Subtilizer28 for bug fixes and assisting the package!
+
 
 - - - 
 
