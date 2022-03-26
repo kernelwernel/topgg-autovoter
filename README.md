@@ -1,5 +1,5 @@
 <h1 align="center">topgg-autovoter</h1>
-<h2 align="center"><b>WARNING:</b> this package has been patched. It no longer works now.</h2>
+<h2 align="center"><b>WARNING:</b> this package does not work for now, please visit this package in another time until we fix the issue.</h2>
 
 <p align="center">topgg-autovoter automates voting for bots on top.gg using google chrome! </p>
 
