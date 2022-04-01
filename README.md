@@ -28,10 +28,10 @@ npm i topgg-autovoter
 
 ## Usage
 
-`vote({ voteUrl, userDataDir, connectSidCookie })`
+`vote({ botID, userDataDir, connectSidCookie })`
 
-- `voteUrl`
-  - the top.gg url to vote for your bot
+- `botID`
+  - the botID to vote for your bot
 - `userDataDir`
   - the path to the directory of your local user's chrome data
     - Will likely be `%userprofile%\AppData\Local\Google\Chrome\User Data` on windows
@@ -45,7 +45,7 @@ const { vote } = require("topgg-autovoter");
 
 async function voteForMyBot() {
   const { success, msg } = await vote({
-    voteUrl: "https://top.gg/bot/12345678/vote",
+    botID: "1234567890",
     connectSidCookie: "connect.sid cookie", // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
     userDataDir:
       "C:\\Users\\JohnSmith\\AppData\\Local\\Google\\Chrome\\User Data", // Only connectSidCookie or userDataDir is required. connectSidCookie input will be prioritized.
